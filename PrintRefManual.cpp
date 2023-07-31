@@ -1,9 +1,11 @@
-#include "PrintManual.h"
+#include "PrintRefManual.h"
 
 namespace TelCoColorCoder {
 	void printRefManual()
 	{
-		std::cout << "Color Pair to Pair Number Reference Manual";
+		std::cout << "Color Pair to Pair Number Reference Manual" << std::endl;
+		std::cout << std::endl;
+		std::cout << std::endl;
 
 		int pairNo = 0;
 
@@ -13,8 +15,10 @@ namespace TelCoColorCoder {
 
 				std::cout << "Major Color : " << MajorColorNames[majorCol] << ", " << "Minor Color : " 
 					<< MinorColorNames[minorCol] << " = " << pairNo <<std::endl;
-				std::cout << "------------------------------------------------------";
+				std::cout << "---------------------------------------------------" << std::endl;
 			}
 		}
+		std::cout << std::endl;
+		std::cout << std::endl;
 	}
 }

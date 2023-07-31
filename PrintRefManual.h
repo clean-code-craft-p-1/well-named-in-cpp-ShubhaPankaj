@@ -1,5 +1,5 @@
 #pragma once
-#include "colorAndPairMapping.h"
+#include "ColorAndPairMapping.h"
 
 namespace TelCoColorCoder {
 

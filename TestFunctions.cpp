@@ -13,3 +13,10 @@ void TelCoColorCoder::testPairToNumber(TelCoColorCoder::MajorColor major, TelCoC
     std::cout << "Got pair number " << pairNumber << std::endl;
     assert(pairNumber == expectedPairNumber);
 }
+
+void TelCoColorCoder::testPrinting()
+{
+    bool funExecuted = TelCoColorCoder::printRefManual();
+    std::cout << "Printing done = " << funExecuted << std::endl;
+    assert(funExecuted == true);
+}

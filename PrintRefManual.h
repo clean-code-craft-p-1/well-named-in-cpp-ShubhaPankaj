@@ -3,5 +3,5 @@
 
 namespace TelCoColorCoder {
 
-	void printRefManual();
+	bool printRefManual();
 }

@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "GlobalDefs.h"
+#include "ColorCodeDefs.h"
 
 namespace TelCoColorCoder
 {
